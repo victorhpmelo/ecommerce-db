@@ -21,7 +21,8 @@ INSERT INTO Categorias (nome) VALUES
 -- Produtos
 INSERT INTO Produtos (nome, descricao, preco, estoque, categoria_id, fornecedor_id) VALUES
 ('Smartphone X', 'Celular moderno com câmera avançada.', 1999.99, 50, 1, 1),
-('Camisa Polo', 'Camisa de algodão confortável.', 89.90, 30, 2, 2);
+('Camisa Polo', 'Camisa de algodão confortável.', 89.90, 30, 2, 2),
+('Camiseta Básica', 'Camiseta simples de algodão.', 49.90, 5, 2, 2);
 
 -- Pedidos
 INSERT INTO Pedidos (usuario_id, data_pedido) VALUES
